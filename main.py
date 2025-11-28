@@ -21,7 +21,7 @@ def add_header(canvas, doc):
 
     # Subtitle (centered)
     canvas.setFont('Times-Italic', 9)
-    canvas.drawCentredString(width / 2.0, height - 0.9 * inch, "Computer Science, Data Centric Computing major")
+    canvas.drawCentredString(width / 2.0, height - 0.9 * inch, "Computer Science, Data Centric Computing major") # <--- PLACEHOLDER
 
     canvas.restoreState()
 
